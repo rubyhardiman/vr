@@ -12,23 +12,30 @@
 
 <body>
 <a-scene>
+    <a-assets>
+ <img id="image1" src="images/mermaid.png" preload="auto">
+ <img id="image2" src="fish.jpg" preload="auto">
+  <img id="image3" src="divafish.jpg" preload="auto">
+ 
+</a-assets>
+
     <a-entity environment="preset: starry; dressingAmount: 100; skyColor:lilac;seed:5"></a-entity>
     <!--Museum Start-->
-    <a-cylinder id="floor" position="0 0 0" radius="7.5" height="0.1" color="#BFD7EA"></a-cylinder>
-    <a-box id="wall1" position="0 1.473 4.907" scale="10 3 0.1" color="black"></a-box>
-    <a-box id="wall2" position="0 1.473 -4.907" scale="10 3 0.1" color="black"></a-box>
-    <a-box id="wall3" position="5.049 1.453 -0.008" rotation="0 -90 0" scale="10 3 0.1" color="black"></a-box>
-    <a-box id="wall4" position="-5.049 1.453 -0.008" rotation="0 -90 0" scale="10 3 0.1" color="#BFD7EA"></a-box>
-    <a-cylinder id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="blue"></a-cylinder>
-    <a-cylinder id="triangle_back" segments-radial="3" position="0 3.874 -4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="blue"></a-cylinder>
-    <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="blue"></a-box>
-    <a-box id="roof_left" position="-2.599 4.321 -0.017" rotation="28.433 -90 0" scale="10.931 0.20 6.130" color="blue"></a-box>
-<a-assets>
- <img id=" " src="images/nameOfYourImage" preload="auto">
-</a-assets>
-<a-plane id="art1" src="gdj-mona-lisa-6224133_1920.png" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
-<a-plane id="art2" src="gdj-mermaid-9595983_1280.png" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
+    <a-cylinder id="floor" position="0 0 0" radius="7.5" height="0.1" color="#8499B1"></a-cylinder>
+    <a-box id="wall1" position="0 1.473 4.907" scale="10 3 0.1" color="#8499B1"></a-box>
+    <a-box id="wall2" position="0 1.473 -4.907" scale="10 3 0.1" color="#8499B1"></a-box>
+    <a-box id="wall3" position="5.049 1.453 -0.008" rotation="0 -90 0" scale="10 3 0.1" color="#8499B1"></a-box>
+    <a-box id="wall4" position="-5.049 1.453 -0.008" rotation="0 -90 0" scale="10 3 0.1" color="#8499B1"></a-box>
+    <a-cylinder id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="#8499B1"></a-cylinder>
+    <a-cylinder id="triangle_back" segments-radial="3" position="0 3.874 -4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="#8499B1"></a-cylinder>
+    <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="#8499B1"></a-box>
+    <a-box id="roof_left" position="-2.599 4.321 -0.017" rotation="28.433 -90 0" scale="10.931 0.20 6.130" color="#8499B1"></a-box>
 
+ 
+<a-plane id="art1" src="#image1" scale="2 2 0.05" rotation="0 0 0" position="-2.736 1.934 -4.590"></a-plane>
+ <a-plane id="art2" src="#image2" scale="2 2 0.05" rotation="0 0 0" position="-0.235 1.934 -4.590"></a-plane>
+ <a-plane id="art3" src="#image3" scale="2 2 0.05" rotation="0 0 0" position="2.293 1.934 -4.590"></a-plane>
+ 
 </a-scene>
 </body>
 </html>
